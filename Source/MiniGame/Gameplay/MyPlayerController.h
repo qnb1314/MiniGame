@@ -13,5 +13,10 @@ UCLASS()
 class MINIGAME_API AMyPlayerController : public APlayerController
 {
 	GENERATED_BODY()
+public:
+	AMyPlayerController();
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "StackStateMachine", meta = (AllowPrivateAccess = "true"))
+	class UStackStateMachineComponent* UIStackStateMachine;
 	
 };

@@ -2,4 +2,9 @@
 
 
 #include "MyPlayerController.h"
+#include "StackStateMachineComponent.h"
 
+AMyPlayerController::AMyPlayerController()
+{
+	UIStackStateMachine = CreateDefaultSubobject<UStackStateMachineComponent>(TEXT("UIStackStateMachine"));
+}

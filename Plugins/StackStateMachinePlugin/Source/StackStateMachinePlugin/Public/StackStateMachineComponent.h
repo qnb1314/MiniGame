@@ -8,7 +8,7 @@
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnStackStatePushPopSignature, TScriptInterface<IStackStateInterface>, State);
 
 UCLASS(Blueprintable,BlueprintType,meta=(BlueprintSpawnableComponent))
-class UStackStateMachineComponent :public UActorComponent
+class STACKSTATEMACHINEPLUGIN_API UStackStateMachineComponent :public UActorComponent
 {
 	GENERATED_BODY()
 
