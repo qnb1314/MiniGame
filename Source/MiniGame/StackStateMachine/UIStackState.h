@@ -4,7 +4,7 @@
 #include "UIStackState.generated.h"
 
 UCLASS(ABSTRACT, BlueprintType, Blueprintable)
-class STACKSTATEMACHINEPLUGIN_API UUIStackState :public UUserWidget, public IStackStateInterface
+class MINIGAME_API UUIStackState :public UUserWidget, public IStackStateInterface
 {
 	GENERATED_BODY()
 

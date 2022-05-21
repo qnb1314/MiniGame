@@ -5,12 +5,12 @@
 #include "StackStateInterface.generated.h"
 
 UINTERFACE(meta=(CannotImplementInterfaceInBlueprint))
-class STACKSTATEMACHINEPLUGIN_API UStackStateInterface :public UInterface
+class MINIGAME_API UStackStateInterface :public UInterface
 {
 	GENERATED_BODY()
 };
 
-class STACKSTATEMACHINEPLUGIN_API IStackStateInterface
+class MINIGAME_API IStackStateInterface
 {
 	GENERATED_BODY()
 

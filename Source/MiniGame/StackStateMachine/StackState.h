@@ -4,7 +4,7 @@
 #include "StackState.generated.h"
 
 UCLASS(ABSTRACT, BlueprintType, Blueprintable, HideCategories = ("Cooking", "LOD", "Physics", "Activation", "Tags", "Rendering"))
-class STACKSTATEMACHINEPLUGIN_API UStackState :public UObject, public IStackStateInterface
+class MINIGAME_API UStackState :public UObject, public IStackStateInterface
 {
 	GENERATED_BODY()
 
