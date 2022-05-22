@@ -2,7 +2,7 @@
 
 
 #include "MyPlayerController.h"
-#include "StackStateMachineComponent.h"
+#include "../StackStateMachine/StackStateMachineComponent.h"
 
 AMyPlayerController::AMyPlayerController()
 {
