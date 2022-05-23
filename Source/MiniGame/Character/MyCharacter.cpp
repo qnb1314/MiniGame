@@ -2,6 +2,7 @@
 
 
 #include "MyCharacter.h"
+#include "Components/InputComponent.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
